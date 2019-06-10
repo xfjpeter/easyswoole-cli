@@ -24,9 +24,8 @@ class Router extends AbstractRouter
 {
     function initialize(RouteCollector $routeCollector)
     {
-        $routeCollector->get('/user', function (Request $request, Response $response) {
-            $str = 'this is test router by user.';
-            $response->write($str);
+        $routeCollector->get('/test', function (Request $request, Response $response) {
+            $response->write('this is test router.');
 
             return false;
         });

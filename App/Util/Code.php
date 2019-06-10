@@ -26,10 +26,12 @@ class Code
 {
     use Singleton;
 
+    const success               = 0;
     const interval_server_error = 5000;
     const not_fount             = 4004;
 
     private $message = [
+        0    => 'Success',
         4004 => 'Not Found',
         5000 => 'Interval Server Error',
     ];
