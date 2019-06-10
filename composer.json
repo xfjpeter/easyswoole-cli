@@ -1,0 +1,17 @@
+{
+  "name": "johnxu/easyswoole",
+  "authors": [
+    {
+      "name": "johnxu",
+      "email": "fsyzxz@gmail.com"
+    }
+  ],
+  "require": {
+    "easyswoole/easyswoole": "3.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
